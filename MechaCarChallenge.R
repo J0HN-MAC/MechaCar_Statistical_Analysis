@@ -11,8 +11,7 @@ lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle +
      ground_clearance + AWD ,data=MechaCar_data)
 
 # Summarize to get p-value
-summary(lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + 
-             ground_clearance + AWD ,data=MechaCar_data))
+summary(lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AWD ,data=MechaCar_data))
 
 
 ####### Deliverable 2 #######
