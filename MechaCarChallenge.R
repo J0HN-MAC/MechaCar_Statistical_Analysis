@@ -4,7 +4,7 @@
 library(dplyr)
 
 # Import and read the MechaCar_mpg.csv
-MechaCar_data <- read.csv(file='MechaCAr_mpg.csv',check.names=F,stringsAsFactors = F)
+MechaCar_data <- read.csv(file='Data/MechaCAr_mpg.csv',check.names=F,stringsAsFactors = F)
 
 # Perform linear regression using all six variables (columns)
 lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + 
