@@ -22,21 +22,23 @@ The r-squared value (~0.71) means that around 71% of all mpg predictions will be
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. The variance for all lots combined fall within the acceptable variance range, but the variance for Lot 3 (170PSI) far exceeds the 100PSI limit.
 
 ## T-Tests on Suspension Coils
+T-tests were used to determine if the manufacturing lots are statistically different from the population mean of 1500 PSI. If the p-value from a t-test is above the commonly accepted signigicance level of 0.05%, then we do not have sufficient evidence to reject the null hypothesis. Thus, the two means would be statistically similar.
+
 ### T-test for All Lots
+The p-value is 0.060 which implies that the mean PSI for all lots is statistically similar to the desired 1500 PSI.
 ![This is an image](Images/t-test_all_lots.png)
 
-
 ### T-test for Lot 1
+The is p-value is 1.0, so the mean for Lot 1 is also statistically similar to 1500 PSI.
 ![This is an image](Images/t-test_lot1.png)
 
-
 ### T-test for Lot 2
+Here again, Lot 2 is statistically similar to the 1500 PSI mean.
 ![This is an image](Images/t-test_lot2.png)
 
-
 ### T-test for Lot 3
+For Lot 3, the p-value is 0.042 and below the significance value so there is a significant statistical variation between these two means.
 ![This is an image](Images/t-test_lot3.png)
-
 
 
 
